@@ -1,0 +1,93 @@
+*reload_win.txt* Reload a browser by windows.
+
+Author: mh_033 <y326045@yahoo.co.jp>
+(c) 2014 mh_033
+License: MIT license
+
+
+==============================================================================
+Contents						*reload_win_contents*
+
+Introduction						|reload_win_introduction|
+Platform						|reload_win_platform|
+Usage							|reload_win_usage|
+Key mapping						|reload_win_keymapping|
+Command							|reload_win_commands|
+Exit							|reload_win_exit|
+Installation						|reload_win_installation|
+Changelog						|reload_win_changelog|
+
+
+==============================================================================
+Introduction						|reload_win_introduction|
+
+Automatically reload a browser after having saved a file in Windows
+environment.
+
+The function becomes effective after start of this plugin.
+
+
+==============================================================================
+Platform						|reload_win_platform|
+
+Windows
+
+It does not function in Unix.
+
+
+==============================================================================
+Usage							|reload_win_usage|
+                                        
+After having started, you only save it,
+and the browser is reloaded.
+                                        
+The mapping for start
+<Leader>w
+
+
+==============================================================================
+Key mapping						|reload_win_keymapping|
+                      
+Default mappings
+ReloadWin <Leader>w   
+
+ReloadWinOpen <Space>o
+ReloadWinChange <Space>i
+
+<Space>o  can open the browser.
+<Space>i  can change the browser to use.
+
+
+==============================================================================
+Command			                  		|reload_win_commands| 
+                                         
+:ReloadWin                               
+                        
+
+==============================================================================
+Exit					 		|reload_win_exit|	
+
+<Leader>w
+Alt + F4
+
+
+==============================================================================
+Installation						|reload_win_installation|
+
+Copy each file from this repository into your folder of the same name.
+
+$Vim/vimfiles/plugin
+$Vim/vimfiles/autoload
+$Vim/vimfiles/doc
+
+
+==============================================================================
+Changelog						|reload_win_changelog|
+
+1.0	2014-05-08
+	First version	
+
+
+==============================================================================
+
+vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
